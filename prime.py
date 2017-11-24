@@ -31,7 +31,7 @@ def prime (n):
 	
 
 print ('This code will output a list of prime numbers until the number you entered.')
-a= int(input ('Please enter a number : '))
+a = int(input ('Please enter a number : '))
 print ('The list of prime numbers up to this number is :')
 prime (a)
 
