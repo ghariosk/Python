@@ -62,21 +62,5 @@ while word == 'You entered a wrong time':
                 else:
                         time=int(input('You entered a wrong time'))
 
-def Hello(a):
-
-	print((a**2)/3)
-
-a = [1,2,3,4,5,6,7,8,5,43,2,23,5,436,12312,42,654]
-print(a)
-
-
-b = list(map(lambda x: Hello(x) , a))
-
-
-# b = map (Hello(a), a)
-
-# print (b)
-
-
 
 
