@@ -1,6 +1,3 @@
-import matplotlib.pyplot as plt
-import numpy as np
-
 def prime (n):
 	i=1
 	array=[1]
@@ -20,26 +17,14 @@ def prime (n):
 	while i < len(array):
 		if array.count(i) == 1:
 			print (i)
-		# 	hello.append(1)
-		# else :
-		# 	hello.append(0)
-
-		# prime = hello.append(hello.count(1)/len(hello))
 		i += 1
-	# return prime
-	
-	
 
 print ('This code will output a list of prime numbers until the number you entered.')
 a = int(input ('Please enter a number : '))
 print ('The list of prime numbers up to this number is :')
 prime (a)
 
-# print (prime)
 
-# plt.plot(prime,)
-
-# plt.show()
 
 
 
