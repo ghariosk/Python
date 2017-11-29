@@ -1,8 +1,6 @@
 def prime (n):
 	i=1
 	array=[1]
-	hello = [1]
-	prime = []
 	while i <= n:
 		b = i 
 		prime=[]
@@ -12,8 +10,7 @@ def prime (n):
 				array.append(i)
 			b -= 1
 		i += 1
-	i = 0
-	ratio = 0 
+	i = 0 
 	while i < len(array):
 		if array.count(i) == 1:
 			print (i)
